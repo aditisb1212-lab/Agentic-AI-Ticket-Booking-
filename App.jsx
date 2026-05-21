@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, LogIn, LogOut, Ticket, Armchair, User, Trash2 } from 'lucide-react';
-import EventCard from './components/EventCard';
-import SeatingChart from './components/SeatingChart';
-import AiAgentPanel from './components/AiAgentPanel';
-import AuthModal from './components/AuthModal';
+import EventCard from './components/eventcard';
+import SeatingChart from './components/seatingchart';
+import AiAgentPanel from './components/aiagentpanel';
+import AuthModal from './components/authmodal';
 
 export default function App() {
   const [user, setUser] = useState(null);
