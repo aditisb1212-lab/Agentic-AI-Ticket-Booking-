@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || 'fUig34qQYPhjqKMfGRZrQOxebowC2iyG HICnloAiMwuFiOdHJRS0y90qref4XS4O 56xKrd7bij330NQQwjIJIYl33bOEsArT gcP5DZyhuz4R3d3KzxjFlukZUeQPUQKG n4p9Wu7pAexYURdcyLnuoquWHTSJz6j4 g6tr6VKWx2gdY4bZ0cKKDHA5T1NmJ9NI gau8yQ4e9AT4bCr547V7gPBXMxeFYwuI OU6mB1DpTCHxwECw7xPrhFxS7v7jHpJs 1YxP1yZmLpucTx843XsMpc0lKxa2ZNFa 7AbBdktfVMbP35aVzUGknzHi1Dfuz7Tm';
+const JWT_SECRET = process.env.JWT_SECRET || 'JWT_SECRET';
 
 app.use(cors());
 app.use(express.json());
