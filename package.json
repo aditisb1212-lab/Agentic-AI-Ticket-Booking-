@@ -10,6 +10,12 @@
     "lint": "echo 'No linting configured'",
     "preview": "vite preview"
   },
+   "dependencies": {
+    "express": "^5.2.1",
+    "lucide-react": "^0.378.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "dependencies": {
     "lucide-react": "^0.378.0",
     "react": "^18.3.1",
