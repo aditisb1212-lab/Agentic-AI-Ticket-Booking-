@@ -31,7 +31,7 @@ export default function AiAgentPanel({ onBookingCompleted, currentEvent }) {
     const token = localStorage.getItem('token');
 
     try {
-      const response = await fetch('http://localhost:5000/api/agent/chat', {
+      const response = await fetch('https://agentic-ai-ticket-booking-4.onrender.com/api/agent/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
