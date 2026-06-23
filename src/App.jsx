@@ -49,7 +49,7 @@ export default function App() {
 
   const fetchEvents = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/events');
+      const response = await fetch('https://agentic-ai-ticket-booking-4.onrender.com/api/events');
       const data = await response.json();
       setEvents(data);
       if (data.length > 0 && !selectedEvent) {
