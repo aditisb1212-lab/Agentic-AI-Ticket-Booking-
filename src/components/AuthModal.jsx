@@ -16,7 +16,7 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
     setError('');
     setLoading(true);
 
-    const url = isLogin ? 'http://localhost:5000/api/auth/login' : 'http://localhost:5000/api/auth/register';
+    const url = isLogin ? 'https://agentic-ai-ticket-booking-4.onrender.com/api/auth/login' : 'https://agentic-ai-ticket-booking-4.onrender.com/api/auth/register';
     const body = isLogin ? { email, password } : { name, email, password };
 
     try {
